@@ -15,7 +15,7 @@ function family_planning(){
 
     <!-- Navigation Menu -->
 
-    <nav style="font-size: 12px; display: flex; list-style: none;">
+    <nav style="padding: 10px 0;font-size: 12px; display: flex; list-style: none;">
     <ul style="display: flex; gap: 10px; padding: 0; margin: 0; list-style: none;">
         <li style="text-decoration: underline;">
             <a href="#" style="color: blue;" onclick="family_planning()">গর্ভনিয়ন্ত্রণ পদ্ধতি</a>
@@ -54,37 +54,37 @@ function family_planning(){
     <div class="container" style="border-right: 2px solid #ddd; margin-bottom:10px; ">
     <div class="flex-container" >
         <div class="main-news" style="border-right: 2px solid #ddd;">
-            <img src="./src/images/exampleImage.avif" alt="News Image" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.002)'" 
+            <img src="./src/images/family_planning/gorbo_niyontron/mainnews.jpg" alt="News Image" style="transition: transform 0.3s ease-in-out;border:1px solid #ddd;"  onmouseover="this.style.transform='scale(1.002)'" 
             onmouseout="this.style.transform='scale(1)'">
-            <h2>বেশি মাংস, বেশি ডিম দেয় নতুন প্রজাতির এই হাঁস</h2>
-            <p>৮ ঘন্টা আগে</p>
+            <h2>নারীদের জন্য নিরাপদ বিকল্পসমূহ</h2>
+            <p> ১ ঘন্টা আগে</p>
         </div>
         <div class="side-news">
-        <img src="./src/images/exampleImage.avif" alt="News Image" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
+        <img src="./src/images/family_planning/gorbo_niyontron/subnews.jpg" alt="News Image" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
         onmouseout="this.style.transform='scale(1)'">
-            <h3>ইউরোপে পড়ালেখা এই জনপ্রিয় বৃত্তির সুযোগ কি আপনি নিতে চান</h3>
-            <p>৮ ঘন্টা আগে</p>
+            <h3>পুরুষ ও নারীদের জন্য গর্ভনিয়ন্ত্রণ পদ্ধতির তুলনা </h3>
+            <p>১.৩০ ঘন্টা আগে</p>
         </div>
     </div>
     
     <div class="flex-container" style="margin-top:8px;">
         <div class="news-item" style="border-right: 1px solid #ddd;">
-            <img src="./src/images/exampleImage.avif" alt="Fashion Show" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
+            <img src="./src/images/family_planning/gorbo_niyontron/subnews2.jpg" alt="Fashion Show" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
             onmouseout="this.style.transform='scale(1)'">
-            <h3>পোশাকে, ফ্যাশনে জন্ম উত্তরের মঞ্চ</h3>
+            <h3> চিরস্থায়ী বনাম সাময়িক গর্ভনিয়ন্ত্রণ পদ্ধতি: কোনটা বেছে নেবেন? </h3>
             <p>৫ ঘন্টা আগে</p>
         </div>
         <div class="news-item" style="border-right: 1px solid #ddd;">
-            <img src="./src/images/exampleImage.avif" alt="Scientist" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
+            <img src="./src/images/family_planning/gorbo_niyontron/subnews3.jpg" alt="Scientist" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
             onmouseout="this.style.transform='scale(1)'">
-            <h3>প্রথম হওয়া সায়েন্স লেখা-কিভাবে কষ্ট স্বার্থক হলো</h3>
-            <p>৮ ঘন্টা আগে</p>
+            <h3>বিয়ের পর পরিবার পরিকল্পনার সঠিক গাইডলাইন</h3>
+            <p>6 ঘন্টা আগে</p>
         </div>
         <div class="news-item">
-            <img src="./src/images/exampleImage.avif" alt="Student" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
+            <img src="./src/images/family_planning/gorbo_niyontron/subnews4.jpg" alt="Student" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
             onmouseout="this.style.transform='scale(1)'">
-            <h3>এআই ব্যবহার করে লোডশেডিং কমাতে চান আইইউবির শিক্ষার্থী হালিমা</h3>
-            <p>৯ ঘন্টা আগে এআই ব্যবহার করে লোডশেডিং কমাতে চান আইইউবির শিক্ষার্থী হালিমা</p>
+            <h3>কিশোর-কিশোরীদের জন্য সচেতনতা: গর্ভনিয়ন্ত্রণের প্রাথমিক ধারণা</h3>
+            <p>৯ ঘন্টা আগে </p>
         </div>
     </div>
     
@@ -92,16 +92,16 @@ function family_planning(){
 
 <div class="sidebar">
 
-        <img src="./src/images/exampleImage.avif" alt="Scientist" style="padding-bottom:5px;transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
+        <img src="./src/images/family_planning/gorbo_niyontron/mainnews.jpg" alt="Scientist" style="padding-bottom:5px;transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
         onmouseout="this.style.transform='scale(1)'">
         <div style="border-bottom: 3px solid #ddd;"></div>
-        <h3 >সর্বশেষ</h3>
+        <h3 >সর্বোচ্চ পঠিত </h3>
         <ul >
-            <li style="border-bottom: 2px solid #ddd; margin-top:5px; margin-bottom:5px;">লিভারপুলকে হারিয়ে ৭০ বছর পর ইউরোপে 'গ্যালিপ্সি' নিউজকাস্ট</li>
-            <li style="border-bottom: 2px solid #ddd;  margin-top:5px; margin-bottom:5px;">নির্বাচন বিভ্রান্তির কারণে জনগণ সঠিক সিদ্ধান্ত নিতে পারছে না</li>
-            <li style="border-bottom: 2px solid #ddd;  margin-top:5px; margin-bottom:5px;">নারীদের হারিয়ে 'ব্লুজ' দলের ইনভেস্টমেন্ট বাড়ছে</li>
-            <li style="border-bottom: 2px solid #ddd;  margin-top:5px; margin-bottom:5px;">মতামত: 'ধর্ষণ' শাস্তি ডিএমপি কমান্ডারের ভুল দৃষ্টি</li>
-            <li>মতামত: 'ধর্ষণ' শাস্তি ডিএমপি কমান্ডারের ভুল দৃষ্টি</li>
+            <li style="border-bottom: 2px solid #ddd; margin-top:5px; margin-bottom:5px;">গর্ভনিয়ন্ত্রণ পদ্ধতি: নারীদের জন্য নিরাপদ বিকল্পসমূহ</li>
+            <li style="border-bottom: 2px solid #ddd;  margin-top:5px; margin-bottom:5px;">পরিবার পরিকল্পনা ও গর্ভনিয়ন্ত্রণ পদ্ধতির গুরুত্ব</li>
+            <li style="border-bottom: 2px solid #ddd;  margin-top:5px; margin-bottom:5px;">গর্ভনিরোধক পদ্ধতির ধরণ ও কার্যকারিতা</li>
+            <li style="border-bottom: 2px solid #ddd;  margin-top:5px; margin-bottom:5px;">গর্ভনিয়ন্ত্রণ পদ্ধতির পার্শ্বপ্রতিক্রিয়া ও প্রতিকার</li>
+            <li>ধর্ম, সমাজ ও গর্ভনিয়ন্ত্রণ: একটি বিশ্লেষণ</li>
         </ul>
     </div>
 
@@ -121,28 +121,28 @@ function family_planning(){
     <div class="swiper-wrapper">
         <!-- Slide 1 -->
         <div class="swiper-slide">
-            <img src="./src/images/exampleImage.avif" alt="Slide 1" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
+            <img src="./src/images/family_planning/gorbo_niyontron/subnews2.jpg" alt="Slide 1" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
             onmouseout="this.style.transform='scale(1)'">
             <h3>Slide 1 Title</h3>
             <p>Short description of Slide 1.</p>
         </div>
         <!-- Slide 2 -->
         <div class="swiper-slide">
-            <img src="./src/images/exampleImage.avif" alt="Slide 2" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
+            <img src="./src/images/family_planning/gorbo_niyontron/subnews4.jpg" alt="Slide 2" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
             onmouseout="this.style.transform='scale(1)'">
             <h3>Slide 2 Title</h3>
             <p>Short description of Slide 2.</p>
         </div>
         <!-- Slide 3 -->
         <div class="swiper-slide">
-            <img src="./src/images/exampleImage.avif" alt="Slide 3" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
+            <img src="./src/images/family_planning/gorbo_niyontron/subnews2.jpg" alt="Slide 3" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
             onmouseout="this.style.transform='scale(1)'">
             <h3>Slide 3 Title</h3>
             <p>Short description of Slide 3.</p>
         </div>
         <!-- Slide 4 -->
         <div class="swiper-slide">
-            <img src="./src/images/exampleImage.avif" alt="Slide 4" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
+            <img src="./src/images/family_planning/gorbo_niyontron/subnews3.jpg" alt="Slide 4" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
             onmouseout="this.style.transform='scale(1)'">
             <h3>Slide 4 Title</h3>
             <p>Short description of Slide 4.</p>
@@ -299,19 +299,19 @@ function projonod_shastho(){
     <div style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #fff;"id="change_div">
 
     <!-- Header -->
-    <header style="background-color: white; margin-left:20% padding: 15px;">
-        <h1 style="color: red; margin-left: 8%; font-size: 38px;margin-bottom:35px; ">পরিবার পরিকল্পনা</h1>
+    <header style="background-color: white;">
+        <h1 style="color: red; ">পরিবার পরিকল্পনা</h1>
     </header>
 
     <!-- Navigation Menu -->
 
-    <nav style="margin-left:18%; padding: 10px 0; font-size: 12px; display: flex; list-style: none;">
+    <nav style=" padding: 10px 0; font-size: 12px; display: flex; list-style: none;">
     <ul style="display: flex; gap: 10px; padding: 0; margin: 0; list-style: none;">
         <li >
             <a href="#" style="color: black;text-decoration: none;" onclick="family_planning()">গর্ভনিয়ন্ত্রণ পদ্ধতি</a>
         </li>
         <li style="text-decoration: underline;">
-            <a href="#" style="color: black; " onclick="projonod_shastho()">প্রজনন স্বাস্থ্য</a>
+            <a href="#" style="color: blue; " onclick="projonod_shastho()">প্রজনন স্বাস্থ্য</a>
         </li>
         <li>
             <a href="#" style="color: black; text-decoration: none;" onclick="jonmobiroti()">জন্ম বিরতি</a>
@@ -338,7 +338,7 @@ function projonod_shastho(){
 
 
 
-    <div style="display: flex; margin-left:18%; margin-right:14%;margin-top:10px;">
+    <div style="display: flex;margin-top:10px;">
 
 
     <div class="container" style="border-right: 2px solid #ddd; margin-bottom:10px; ">
@@ -399,15 +399,15 @@ function projonod_shastho(){
     
         </div>
 
-        <div style="border-top: 3px solid #1119f5; margin-left:18%; margin-right:14%;margin-top:10px;">
+        <div style="border-top: 3px solid #1119f5;margin-top:10px;">
 
         </div>
 
-    <div style="margin-left:18%; margin-right:14%;margin-top:10px;">
+    <div style="margin-top:10px;">
     <h2>সর্বশেষ খবর</h2>
     </div>
 
-    <div class="swiper mySwiper" style="margin-left:18%; margin-right:14%;margin-top:15px;border-bottom: 2px solid #ddd; padding-bottom:8px;">
+    <div class="swiper mySwiper" style="margin-top:15px;border-bottom: 2px solid #ddd; padding-bottom:8px;">
     <div class="swiper-wrapper">
         <!-- Slide 1 -->
         <div class="swiper-slide">
@@ -445,11 +445,11 @@ function projonod_shastho(){
     <div class="swiper-button-prev"></div>
 </div>
 
-<div style="border-top: 3px solid #ddd; margin-left:18%; margin-right:14%;margin-top:30px;">
+<div style="border-top: 3px solid #ddd; margin-top:30px;">
 
 </div>
 
-<div style="margin-left:18%; margin-right:14%;margin-top:10px;">
+<div style="margin-top:10px;">
 <h2>আরও খবর</h2>
 </div>
 
@@ -590,13 +590,13 @@ function jonmobiroti(){
     <div style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #fff;"id="change_div">
 
     <!-- Header -->
-    <header style="background-color: white; margin-left:20% padding: 15px;">
-        <h1 style="color: red; margin-left: 8%; font-size: 38px;margin-bottom:35px; ">পরিবার পরিকল্পনা</h1>
+    <header style="background-color: white;">
+        <h1 style="color: red;">পরিবার পরিকল্পনা</h1>
     </header>
 
     <!-- Navigation Menu -->
 
-    <nav style="margin-left:18%; padding: 10px 0; font-size: 12px; display: flex; list-style: none;">
+    <nav style=" padding: 10px 0; font-size: 12px; display: flex; list-style: none;">
     <ul style="display: flex; gap: 10px; padding: 0; margin: 0; list-style: none;">
         <li >
             <a href="#" style="color: black;text-decoration: none;" onclick="family_planning()">গর্ভনিয়ন্ত্রণ পদ্ধতি</a>
@@ -605,7 +605,7 @@ function jonmobiroti(){
             <a href="#" style="color: black; text-decoration: none;" onclick="projonod_shastho()">প্রজনন স্বাস্থ্য</a>
         </li>
         <li style="text-decoration: underline;">
-            <a href="#" style="color: black; " onclick="jonmobiroti()">জন্ম বিরতি</a>
+            <a href="#" style="color: blue; " onclick="jonmobiroti()">জন্ম বিরতি</a>
         </li>
         <li>
             <a href="#" style="color: black; text-decoration: none;" onclick="sthayee_samoyeek()">স্থায়ী ও সাময়িক পদ্ধতি</a>
@@ -629,7 +629,7 @@ function jonmobiroti(){
 
 
 
-    <div style="display: flex; margin-left:18%; margin-right:14%;margin-top:10px;">
+    <div style="display: flex; margin-top:10px;">
 
 
     <div class="container" style="border-right: 2px solid #ddd; margin-bottom:10px; ">
@@ -690,15 +690,15 @@ function jonmobiroti(){
     
         </div>
 
-        <div style="border-top: 3px solid #1119f5; margin-left:18%; margin-right:14%;margin-top:10px;">
+        <div style="border-top: 3px solid #1119f5; margin-top:10px;">
 
         </div>
 
-    <div style="margin-left:18%; margin-right:14%;margin-top:10px;">
+    <div style="margin-top:10px;">
     <h2>সর্বশেষ খবর</h2>
     </div>
 
-    <div class="swiper mySwiper" style="margin-left:18%; margin-right:14%;margin-top:15px;border-bottom: 2px solid #ddd; padding-bottom:8px;">
+    <div class="swiper mySwiper" style="margin-top:15px;border-bottom: 2px solid #ddd; padding-bottom:8px;">
     <div class="swiper-wrapper">
         <!-- Slide 1 -->
         <div class="swiper-slide">
@@ -736,11 +736,11 @@ function jonmobiroti(){
     <div class="swiper-button-prev"></div>
 </div>
 
-<div style="border-top: 3px solid #ddd; margin-left:18%; margin-right:14%;margin-top:30px;">
+<div style="border-top: 3px solid #ddd; margin-top:30px;">
 
 </div>
 
-<div style="margin-left:18%; margin-right:14%;margin-top:10px;">
+<div style="margin-top:10px;">
 <h2>আরও খবর</h2>
 </div>
 
@@ -909,7 +909,7 @@ function sthayee_samoyeek(){
             <a href="#" style="color: black; text-decoration: none;" onclick="jonmobiroti()">জন্ম বিরতি</a>
         </li>
         <li style="text-decoration: underline;">
-            <a href="#" style="color: black; " onclick="sthayee_samoyeek()">স্থায়ী ও সাময়িক পদ্ধতি</a>
+            <a href="#" style="color: blue; " onclick="sthayee_samoyeek()">স্থায়ী ও সাময়িক পদ্ধতি</a>
         </li>
         <li>
             <a href="#" style="color: black; text-decoration: none;"onclick="poribar_porikolpona_totho()">পরিবার পরিকল্পনা তথ্য</a>

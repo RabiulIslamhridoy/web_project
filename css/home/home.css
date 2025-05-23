@@ -10,8 +10,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding-left: 14%;
-    padding-right: 12%;
+    
     background-color: #ffffff;
 }
 
@@ -168,10 +167,9 @@ a {
     text-decoration: none !important;
 }
 
-/* Articles Section */
-.articles {
-    padding: 40px 60px;
-}
+
+
+
 
 .section-header {
     display: flex;
@@ -261,6 +259,7 @@ a {
     margin-left: 3%;
     margin-top: 20px;
     width: 30%;
+   
     
 }
 img {

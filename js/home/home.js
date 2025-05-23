@@ -35,9 +35,255 @@ function loadContenthome() {
 
 
 
-    <section>
+
+
+
+
+
+
+
+
+
+
+<section style="margin-top: 40px;">
+
+  <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+
+    <!-- Card 1 -->
+    <div style="
+      display: flex;
+      width: 32%;
+      min-width: 300px;
+      height: 100px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+      
+    ">
+      <img src="./src/images/home/newsfeed1.jpg" 
+           alt="" 
+           style="width: 40%; height: 100%; object-fit: cover; display: block; transition: transform 0.3s ease-in-out;" 
+           onmouseover="this.style.transform='scale(1.09)'" 
+           onmouseout="this.style.transform='scale(1)'" />
+
+      <h1 style="
+        margin: 0;
+        padding: 10px;
+        width: 65%;
+        font-size: 0.9rem;
+        color: #000;
+      ">
+        প্রতিদিন স্বাস্থ্য <br><br>
+        <span style="font-size: 0.8rem;">
+          প্রতিদিন স্বাস্থ্য সেবা জানতে ভিজিট করুন
+        </span>
+      </h1>
+    </div>
+
+    <!-- Card 2 -->
+    <div style="
+      display: flex;
+      width: 32%;
+      min-width: 300px;
+      height: 100px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+      
+    ">
+      <img src="./src/images/home/newsfeed2.jpg" 
+           alt="" 
+           style="width: 40%; height: 100%; object-fit: cover; display: block; transition: transform 0.3s ease-in-out;" 
+           onmouseover="this.style.transform='scale(1.09)'" 
+           onmouseout="this.style.transform='scale(1)'" />
+
+      <h1 style="
+        margin: 0;
+        padding: 10px;
+        width: 65%;
+        font-size: 0.9rem;
+        color: #000;
+      ">
+        ব্যায়াম <br><br>
+        <span style="font-size: 0.8rem;">
+        ব্যায়াম সর্ম্পরকিত তথ্য জানতে ভিজিট করুন
+        </span>
+      </h1>
+    </div>
+
+    <!-- Card 3 -->
+    <div style="
+    display: flex;
+    width: 32%;
+    min-width: 300px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    
+  ">
+    <img src="./src/images/home/newsfeed3.jpg" 
+         alt="" 
+         style="width: 40%; height: 100%; object-fit: cover; display: block; transition: transform 0.3s ease-in-out;" 
+         onmouseover="this.style.transform='scale(1.09)'" 
+         onmouseout="this.style.transform='scale(1)'" />
+
+    <h1 style="
+      margin: 0;
+      padding: 10px;
+      width: 65%;
+      font-size: 0.9rem;
+      color: #000;
+    ">
+      প্রতিদিন খাবার <br><br>
+      <span style="font-size: 0.8rem;">
+        প্রতিদিন খাবার সম্পর্কে জানতে ভিজিট করুন
+      </span>
+    </h1>
+  </div>
+
+</section>
+
+<section style="margin-top: 40px;">
+
+  <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+
+    <!-- Card 4 -->
+    <div style="
+      display: flex;
+      width: 32%;
+      min-width: 300px;
+      height: 100px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+      
+    ">
+      <img src="./src/images/home/newsfeed4.jpg" 
+           alt="" 
+           style="width: 40%; height: 100%; object-fit: cover; display: block; transition: transform 0.3s ease-in-out;" 
+           onmouseover="this.style.transform='scale(1.09)'" 
+           onmouseout="this.style.transform='scale(1)'" />
+
+      <h1 style="
+        margin: 0;
+        padding: 10px;
+        width: 65%;
+        font-size: 0.9rem;
+        color: #000;
+      ">
+        কাজের সময় <br><br>
+        <span style="font-size: 0.8rem;">
+          কাজের সময় সম্পর্কে জানুন
+        </span>
+      </h1>
+    </div>
+
+    <!-- Card 5 -->
+    <div style="
+      display: flex;
+      width: 32%;
+      min-width: 300px;
+      height: 100px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+      
+    ">
+      <img src="./src/images/home/newsfeed5.jpg" 
+           alt="" 
+           style="width: 40%; height: 100%; object-fit: cover; display: block; transition: transform 0.3s ease-in-out;" 
+           onmouseover="this.style.transform='scale(1.09)'" 
+           onmouseout="this.style.transform='scale(1)'" />
+
+      <h1 style="
+        margin: 0;
+        padding: 10px;
+        width: 65%;
+        font-size: 0.9rem;
+        color: #000;
+      ">
+        ঘুম <br><br>
+        <span style="font-size: 0.8rem;">
+         ঘুম সম্পর্কিত জানতে ভিজিট করুন
+        </span>
+      </h1>
+    </div>
+
+    <!-- Card 6 -->
+    <div style="
+    display: flex;
+    width: 32%;
+    min-width: 300px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    
+  ">
+    <img src="./src/images/home/newsfeed6.jpg" 
+         alt="" 
+         style="width: 40%; height: 100%; object-fit: cover; display: block; transition: transform 0.3s ease-in-out;" 
+         onmouseover="this.style.transform='scale(1.09)'" 
+         onmouseout="this.style.transform='scale(1)'" />
+
+    <h1 style="
+      margin: 0;
+      padding: 10px;
+      width: 65%;
+      font-size: 0.9rem;
+      color: #000;
+    ">
+      পড়াশোনা প্রতিদিন <br><br>
+      <span style="font-size: 0.8rem;">
+        প্রতিদিন পড়াশোনার সময় সম্পর্কে জানুন
+      </span>
+    </h1>
+  </div>
+  
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section style="margin-top:40px;">
     <div>
-    <h2 style=" font-size: 24px; margin: 20px 0;border-bottom: 3px solid #ddd;">Find Health Care</h2>
+    <h2 style=" font-size: 24px; margin: 20px 0;border-bottom: 3px solid #ddd; padding-bottom:10px;">Find Health Care</h2>
     </div>
 
   <div style="
@@ -223,9 +469,20 @@ function loadContenthome() {
 
 
 
-<section>
+
+
+
+
+
+
+
+
+
+
+
+<section style="margin-top:40px;">
     <div>
-    <h2 style=" font-size: 24px; margin: 20px 0;border-bottom: 3px solid #ddd;">Health Resources</h2>
+    <h2 style=" font-size: 24px; margin: 20px 0;border-bottom: 3px solid #ddd; padding-bottom:10px;">Health Resources</h2>
     </div>
 
   <div style="
@@ -425,9 +682,9 @@ function loadContenthome() {
 
 
 
-<section>
+<section style="margin-top:40px;">
     <div>
-    <h2 style=" font-size: 24px; margin: 20px 0;border-bottom: 3px solid #ddd;">Health Education</h2>
+    <h2 style=" font-size: 24px; margin: 20px 0;border-bottom: 3px solid #ddd; padding-bottom:10px;">Health Education</h2>
     </div>
 
   <div style="
@@ -643,7 +900,7 @@ function secondSection() {
         if(index % 2 === 0) {
         const card = document.createElement("main-content");
         card.classList.add("card");
-        card.innerHTML = ` <section class="articles">
+        card.innerHTML = ` <section class="articles" style="margin-top:30px;">
         <div class="section-header">
             <span>${index+1} OF ${data.length} / <strong>OVERVIEW</strong></span>
             <a href="#" class="view-all">View All</a>
