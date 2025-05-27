@@ -1,7 +1,10 @@
 ﻿const urlParams = new URLSearchParams(window.location.search);
 const username = urlParams.get('id');
-console.log(username);
 
+if (window.location.search) {
+  const cleanUrl = window.location.origin + window.location.pathname;
+  history.pushState({}, "", cleanUrl);
+}
 
 const mainContent = document.getElementById('main-content');
 
