@@ -5,6 +5,17 @@ document.addEventListener("contextmenu", function(event) {
     event.preventDefault();
 });
 
+
+
+
+
+
+
+
+
+
+
+
 function loadContenthome() {
     const container = document.getElementById("main-content");
     container.innerHTML = "";
@@ -45,10 +56,10 @@ function loadContenthome() {
 
 
 
-<section style="margin-top: 40px;">
+<section style="margin-top: 40px; ">
 
   <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-
+ 
     <!-- Card 1 -->
     <div style="
       display: flex;
@@ -60,24 +71,25 @@ function loadContenthome() {
       border-radius: 8px;
       
     ">
+
+    
       <img src="./src/images/home/newsfeed1.jpg" 
            alt="" 
            style="width: 40%; height: 100%; object-fit: cover; display: block; transition: transform 0.3s ease-in-out;" 
            onmouseover="this.style.transform='scale(1.09)'" 
            onmouseout="this.style.transform='scale(1)'" />
-
+        
       <h1 style="
         margin: 0;
         padding: 10px;
         width: 65%;
         font-size: 0.9rem;
-        color: #000;
-      ">
-        প্রতিদিন স্বাস্থ্য <br><br>
-        <span style="font-size: 0.8rem;">
-          প্রতিদিন স্বাস্থ্য সেবা জানতে ভিজিট করুন
-        </span>
+        
+      ">  <a href="./js/maincontent.html?id=home/newsfeed1.jpg" style="text-decoration: none;color: #000;"> 
+      প্রতিদিন স্বাস্থ্য সেবা জানতে ভিজিট করুন
+       
       </h1>
+      </a>
     </div>
 
     <!-- Card 2 -->
@@ -104,10 +116,9 @@ function loadContenthome() {
         font-size: 0.9rem;
         color: #000;
       ">
-        ব্যায়াম <br><br>
-        <span style="font-size: 0.8rem;">
-        ব্যায়াম সর্ম্পরকিত তথ্য জানতে ভিজিট করুন
-        </span>
+      <a href="./js/maincontent.html?id=home/newsfeed2.jpg" style="text-decoration: none;color: #000;"> 
+      ব্যায়াম সর্ম্পরকিত তথ্য জানতে ভিজিট করুন 
+        </a>
       </h1>
     </div>
 
@@ -134,11 +145,9 @@ function loadContenthome() {
       width: 65%;
       font-size: 0.9rem;
       color: #000;
-    ">
-      প্রতিদিন খাবার <br><br>
-      <span style="font-size: 0.8rem;">
-        প্রতিদিন খাবার সম্পর্কে জানতে ভিজিট করুন
-      </span>
+    "><a href="./js/maincontent.html?id=home/newsfeed3.jpg" style="text-decoration: none;color: #000;"> 
+    প্রতিদিন খাবার সম্পর্কে জানতে ভিজিট করুন 
+     </a> 
     </h1>
   </div>
 
@@ -171,12 +180,10 @@ function loadContenthome() {
         width: 65%;
         font-size: 0.9rem;
         color: #000;
-      ">
-        কাজের সময় <br><br>
-        <span style="font-size: 0.8rem;">
-          কাজের সময় সম্পর্কে জানুন
-        </span>
+      "><a href="./js/maincontent.html?id=home/newsfeed4.jpg" style="text-decoration: none;color: #000;"> 
+      কাজের সময় সম্পর্কে জানুন 
       </h1>
+      </a>
     </div>
 
     <!-- Card 5 -->
@@ -203,11 +210,10 @@ function loadContenthome() {
         font-size: 0.9rem;
         color: #000;
       ">
-        ঘুম <br><br>
-        <span style="font-size: 0.8rem;">
-         ঘুম সম্পর্কিত জানতে ভিজিট করুন
-        </span>
+      <a href="./js/maincontent.html?id=home/newsfeed5.jpg" style="text-decoration: none;color: #000;"> 
+      ঘুম সম্পর্কিত জানতে ভিজিট করুন 
       </h1>
+      </a>
     </div>
 
     <!-- Card 6 -->
@@ -234,11 +240,10 @@ function loadContenthome() {
       font-size: 0.9rem;
       color: #000;
     ">
-      পড়াশোনা প্রতিদিন <br><br>
-      <span style="font-size: 0.8rem;">
-        প্রতিদিন পড়াশোনার সময় সম্পর্কে জানুন
-      </span>
+    <a href="./js/maincontent.html?id=home/newsfeed6.jpg" style="text-decoration: none;color: #000;">
+    প্রতিদিন পড়াশোনার সময় সম্পর্কে জানুন 
     </h1>
+    </a>
   </div>
   
 </section>
@@ -571,7 +576,7 @@ function loadContenthome() {
             overflow: hidden;
             border-radius: 8px;
             ">
-            <a href="#" onclick="family_planning()">
+            <a href="./js/health_resources/family_planing.html"">
             <img src="./src/images/home/family_palaning.jpg" 
                 alt=""
                 style="width: 100%; height: auto; object-fit: cover; display: block; transition: transform 0.3s ease-in-out;"
@@ -988,19 +993,13 @@ function secondSection() {
 
      `;
         container.appendChild(card);
+        homeMiddle();
     }
-
-
-
 
     });
 }
 
 
-function loadContent(page) {
-    let content = {
-
-     
 
 
 
@@ -1011,143 +1010,58 @@ function loadContent(page) {
 
 
 
-//Hospitals page
+function homeMiddle(){
 
+    const container = document.getElementById("main-content");
+   
+    const card = document.createElement("main-content");
 
+    card.classList.add("card");
+    card.innerHTML = `
+    <h2 style="color: #002D72; text-transform: uppercase; font-size: 16px; border-bottom: 1px solid #ccc; padding-bottom: 5px;">
+    Featured Stories
+  </h2>
 
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px;margin-bottom:40px;">
 
+    <!-- Card 1 -->
+    <div style="flex: 1 1 300px; box-shadow: 0 0 10px rgba(0,0,0,0.1); border-radius: 6px; overflow: hidden; background: white; min-width: 250px;">
+      <img src="./src/images/home/middlesection_image1.jpg" alt="DNA Test" style="width: 100%; height: auto; display: block;">
+      <div style="padding: 15px;">
+        <h3 style="font-size: 16px; margin: 0 0 10px;">Decoding Your DNA: What Genetic Testing Reveals</h3>
+        <p style="font-size: 14px; color: #555;">
+          In this podcast, Dr. Huma Q. Rana breaks down genetic testing, its benefits, and what the results could mean for your health and your family.
+        </p>
+      </div>
+    </div>
 
-//Appointments page
+    <!-- Card 2 -->
+    <div style="flex: 1 1 300px; box-shadow: 0 0 10px rgba(0,0,0,0.1); border-radius: 6px; overflow: hidden; background: white; min-width: 250px;">
+      <img src="./src/images/home/middlesection_image2.jpg" alt="Diet" style="width: 100%; height: auto; display: block;">
+      <div style="padding: 15px;">
+        <h3 style="font-size: 16px; margin: 0 0 10px;">How The Portfolio Diet Reduces Cholesterol Levels</h3>
+        <p style="font-size: 14px; color: #555;">
+          The Portfolio Diet focuses on lowering cholesterol, not weight loss. Discover the cholesterol-fighting foods to include in your diet.
+        </p>
+      </div>
+    </div>
 
-        'appointments': `
-            <h2>Types of appointments</h2>
-            <p>You have a lot of choices for birth control, from condoms to pills. Find the right one for you.</p>
-        `,
+    <!-- Card 3 -->
+    <div style="flex: 1 1 300px; box-shadow: 0 0 10px rgba(0,0,0,0.1); border-radius: 6px; overflow: hidden; background: white; min-width: 250px;">
+      <img src="./src/images/home/middlesection_image3.jpg" alt="Knee Care" style="width: 100%; height: auto; display: block;">
+      <div style="padding: 15px;">
+        <h3 style="font-size: 16px; margin: 0 0 10px;">Why Cartilage Restoration Might Delay Your Knee Replacement</h3>
+        <p style="font-size: 14px; color: #555;">
+          Knee replacement relieves severe pain but doesn’t last forever. Cartilage restoration could be an option -- here's what to know.
+        </p>
+      </div>
+    </div>
 
+  </div>
+    `;
 
-//Doctor and Specialist page
-        'doctor_specialist': `
-            <h2>Doctor and Specialist </h2>
-            <p>Hormonal birth control includes pills, patches, and injections to prevent pregnancy.</p>
-        `,
-
-//Ambulance Booking page
-        'ambulance_booking': `
-            <h2>ambulance_booking</h2>
-            <p>Emergency contraception can prevent pregnancy if you had unprotected</p>
-            <p>Natural family planning involves tracking ovulation to prevent pregnancy.</p>
-        `,
-
-//Health Camps page
-        'health_camps': `
-            <h2>Health camps Page</h2>
-            <p>Permanent birth control options include vasectomy and tubal ligation.</p>
-        `,
-
-//Health Toolkits page
-
-        'health_toolkits': `
-            <h2>health_toolkits</h2>
-            <p>Permanent birth control options include vasectomy and tubal ligation.</p>
-        `,
-//Health Insurance page
-        'health_insurance': `
-            <h2>health_insurance </h2>
-            <p>Permanent birth control options include vasectomy and tubal ligation.</p>
-        `
-
-
-
-,
-
-
-
-
-
-
-
-//Maternal Health page
-
-
-        'manternal_health': `
-            <h2>Maternal Health</h2>
-            <p>Maternal health refers</p>
-        `,
-
-
-
-
-//baby_care page
-
-        'baby_care': `
-            <h2>Baby Care</h2>
-            <p>Permanent birth control options include vasectomy and tubal ligation.</p>
-        `,
-
-
-//adolescent_care page
-        'adolescent_care': `
-            <h2>Adolescent Care</h2>
-            <p>Permanent birth control options include vasectomy and tubal ligation.</p>
-            `,
-
-//general_healthcare page
-        'general_healthcare': `
-            <h2>General Healthcare</h2>
-            <p>Permanent birth control options include vasectomy and tubal ligation.</p>
-            `,
-
-//nutrition_fitness page
-        'nutrition_fitness': `
-            <h2>Nutrition and Fitness</h2>
-            <p>Permanent birth control options include vasectomy and tubal ligation.</p>
-            `,
-
-//geriatric_health page
-
-        'geriatric_health': `
-            <h2>Geriatric Health</h2>
-            <p>Permanent birth control options include vasectomy and tubal ligation.</p>
-            `,
-//global_health page
-        'global_health': `
-            <h2>Global Health</h2>
-            <p>Permanent birth control options include vasectomy and tubal ligation.</p>
-            `,
-
-
-
-
-
-
-
-            'login': `
-            <div style="display: flex; justify-content: center; align-items: center; height: 100vh; background: linear-gradient(135deg, #667eea, #764ba2); margin: 0; font-family: Arial, sans-serif;">
-
-        <div style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2); width: 100%; max-width: 350px; text-align: center;">
-            <h2 style="color: #333;">Login</h2>
-    
-            <input type="email" placeholder="Email" style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; font-size: 16px;">
-            
-            <input type="password" placeholder="Password" style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; font-size: 16px;">
-            
-            <button style="width: 100%; padding: 10px; background: #667eea; color: white; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">Login</button>
-            
-            <div style="margin-top: 15px;">
-                <a href="#" style="text-decoration: none; color: #667eea;">Forgot Password?</a>
-                <br>
-                <a href="#" style="text-decoration: none; color: #764ba2;">Register</a>
-            </div>
-        </div>
-     `,
-
-
-
-
-
-    };
-
-    document.getElementById('main-content').innerHTML = content[page];
+    container.appendChild(card);
 }
+
 
 loadContenthome()

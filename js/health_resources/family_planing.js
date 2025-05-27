@@ -1,4 +1,7 @@
-﻿// family planning main
+﻿
+
+
+// family planning main 
 function family_planning(){
     const container = document.getElementById("main-content");
     container.innerHTML = "";
@@ -51,16 +54,17 @@ function family_planning(){
     <div style="display: flex; margin-top:10px;">
 
 
-    <div class="container" style="border-right: 2px solid #ddd; margin-bottom:10px; ">
+    <div class="container" style="border-right: 2px solid #ddd; margin-bottom:20px; ">
     <div class="flex-container" >
-        <div class="main-news" style="border-right: 2px solid #ddd;">
-            <img src="./src/images/family_planning/gorbo_niyontron/mainnews.jpg" alt="News Image" style="transition: transform 0.3s ease-in-out;border:1px solid #ddd;"  onmouseover="this.style.transform='scale(1.002)'" 
+        <div class="main-news"><a href="../maincontent.html?id=family_planning/gorbo_niyontron/mainnews.jpg" style="text-decoration: none;color: #000;"> 
+            <img src="../../src/images/family_planning/gorbo_niyontron/mainnews.jpg" alt="News Image" style="transition: transform 0.3s ease-in-out;border:1px solid #ddd;"  onmouseover="this.style.transform='scale(1.002)'" 
             onmouseout="this.style.transform='scale(1)'">
-            <h2>নারীদের জন্য নিরাপদ বিকল্পসমূহ</h2>
-            <p> ১ ঘন্টা আগে</p>
+            <h2 style="margin-top:20px;">নারীদের জন্য নিরাপদ বিকল্পসমূহ</h2>
+            <p style="margin-top:20px;"> ১ ঘন্টা আগে</p>
+            </a>
         </div>
         <div class="side-news">
-        <img src="./src/images/family_planning/gorbo_niyontron/subnews.jpg" alt="News Image" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
+        <img src="../../src/images/family_planning/gorbo_niyontron/subnews.jpg" alt="News Image" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
         onmouseout="this.style.transform='scale(1)'">
             <h3>পুরুষ ও নারীদের জন্য গর্ভনিয়ন্ত্রণ পদ্ধতির তুলনা </h3>
             <p>১.৩০ ঘন্টা আগে</p>
@@ -69,19 +73,19 @@ function family_planning(){
     
     <div class="flex-container" style="margin-top:8px;">
         <div class="news-item" style="border-right: 1px solid #ddd;">
-            <img src="./src/images/family_planning/gorbo_niyontron/subnews2.jpg" alt="Fashion Show" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
+            <img src="../../src/images/family_planning/gorbo_niyontron/subnews2.jpg" alt="Fashion Show" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
             onmouseout="this.style.transform='scale(1)'">
             <h3> চিরস্থায়ী বনাম সাময়িক গর্ভনিয়ন্ত্রণ পদ্ধতি: কোনটা বেছে নেবেন? </h3>
             <p>৫ ঘন্টা আগে</p>
         </div>
         <div class="news-item" style="border-right: 1px solid #ddd;">
-            <img src="./src/images/family_planning/gorbo_niyontron/subnews3.jpg" alt="Scientist" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
+            <img src="../../src/images/family_planning/gorbo_niyontron/subnews3.jpg" alt="Scientist" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
             onmouseout="this.style.transform='scale(1)'">
             <h3>বিয়ের পর পরিবার পরিকল্পনার সঠিক গাইডলাইন</h3>
             <p>6 ঘন্টা আগে</p>
         </div>
         <div class="news-item">
-            <img src="./src/images/family_planning/gorbo_niyontron/subnews4.jpg" alt="Student" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
+            <img src="../../src/images/family_planning/gorbo_niyontron/subnews4.jpg" alt="Student" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
             onmouseout="this.style.transform='scale(1)'">
             <h3>কিশোর-কিশোরীদের জন্য সচেতনতা: গর্ভনিয়ন্ত্রণের প্রাথমিক ধারণা</h3>
             <p>৯ ঘন্টা আগে </p>
@@ -92,16 +96,16 @@ function family_planning(){
 
 <div class="sidebar">
 
-        <img src="./src/images/family_planning/gorbo_niyontron/mainnews.jpg" alt="Scientist" style="padding-bottom:5px;transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
+        <img src="../../src/images/family_planning/gorbo_niyontron/mainnews.jpg" alt="Scientist" style="padding-bottom:5px;transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
         onmouseout="this.style.transform='scale(1)'">
-        <div style="border-bottom: 3px solid #ddd;"></div>
+        <div style="padding-top:15px;"></div>
         <h3 >সর্বোচ্চ পঠিত </h3>
-        <ul >
-            <li style="border-bottom: 2px solid #ddd; margin-top:5px; margin-bottom:5px;">গর্ভনিয়ন্ত্রণ পদ্ধতি: নারীদের জন্য নিরাপদ বিকল্পসমূহ</li>
-            <li style="border-bottom: 2px solid #ddd;  margin-top:5px; margin-bottom:5px;">পরিবার পরিকল্পনা ও গর্ভনিয়ন্ত্রণ পদ্ধতির গুরুত্ব</li>
-            <li style="border-bottom: 2px solid #ddd;  margin-top:5px; margin-bottom:5px;">গর্ভনিরোধক পদ্ধতির ধরণ ও কার্যকারিতা</li>
-            <li style="border-bottom: 2px solid #ddd;  margin-top:5px; margin-bottom:5px;">গর্ভনিয়ন্ত্রণ পদ্ধতির পার্শ্বপ্রতিক্রিয়া ও প্রতিকার</li>
-            <li>ধর্ম, সমাজ ও গর্ভনিয়ন্ত্রণ: একটি বিশ্লেষণ</li>
+        <ul>
+            <li style="padding-top:15px; margin-top:5px; margin-bottom:5px;">গর্ভনিয়ন্ত্রণ পদ্ধতি: নারীদের জন্য নিরাপদ বিকল্পসমূহ</li>
+            <li style="padding-top:15px;  margin-top:5px; margin-bottom:5px;">পরিবার পরিকল্পনা ও গর্ভনিয়ন্ত্রণ পদ্ধতির গুরুত্ব</li>
+            <li style="padding-top:15px; margin-top:5px; margin-bottom:5px;">গর্ভনিরোধক পদ্ধতির ধরণ ও কার্যকারিতা</li>
+            <li style="padding-top:15px; margin-top:5px; margin-bottom:5px;">গর্ভনিয়ন্ত্রণ পদ্ধতির পার্শ্বপ্রতিক্রিয়া ও প্রতিকার</li>
+            <li style="padding-top:15px; margin-top:5px; margin-bottom:5px;">গর্ভনিয়ন্ত্রণ পদ্ধতির পার্শ্বপ্রতিক্রিয়া ও প্রতিকার</li>
         </ul>
     </div>
 
@@ -117,32 +121,32 @@ function family_planning(){
     <h2>সর্বশেষ খবর</h2>
     </div>
 
-    <div class="swiper mySwiper" style=";margin-top:15px;border-bottom: 2px solid #ddd; padding-bottom:8px;">
+    <div class="swiper mySwiper" style=";margin-top:15px; padding-bottom:8px;">
     <div class="swiper-wrapper">
         <!-- Slide 1 -->
         <div class="swiper-slide">
-            <img src="./src/images/family_planning/gorbo_niyontron/subnews2.jpg" alt="Slide 1" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
+            <img src="../../src/images/family_planning/gorbo_niyontron/subnews2.jpg" alt="Slide 1" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
             onmouseout="this.style.transform='scale(1)'">
             <h3>Slide 1 Title</h3>
             <p>Short description of Slide 1.</p>
         </div>
         <!-- Slide 2 -->
         <div class="swiper-slide">
-            <img src="./src/images/family_planning/gorbo_niyontron/subnews4.jpg" alt="Slide 2" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
+            <img src="../../src/images/family_planning/gorbo_niyontron/subnews4.jpg" alt="Slide 2" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
             onmouseout="this.style.transform='scale(1)'">
             <h3>Slide 2 Title</h3>
             <p>Short description of Slide 2.</p>
         </div>
         <!-- Slide 3 -->
         <div class="swiper-slide">
-            <img src="./src/images/family_planning/gorbo_niyontron/subnews2.jpg" alt="Slide 3" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
+            <img src="../../src/images/family_planning/gorbo_niyontron/subnews2.jpg" alt="Slide 3" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
             onmouseout="this.style.transform='scale(1)'">
             <h3>Slide 3 Title</h3>
             <p>Short description of Slide 3.</p>
         </div>
         <!-- Slide 4 -->
         <div class="swiper-slide">
-            <img src="./src/images/family_planning/gorbo_niyontron/subnews3.jpg" alt="Slide 4" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
+            <img src="../../src/images/family_planning/gorbo_niyontron/subnews3.jpg" alt="Slide 4" style="transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.02)'" 
             onmouseout="this.style.transform='scale(1)'">
             <h3>Slide 4 Title</h3>
             <p>Short description of Slide 4.</p>
@@ -165,41 +169,45 @@ function family_planning(){
 
  `;
     container.appendChild(card);
-
-    var swiper = new Swiper(".mySwiper", {
-        loop: true,
-        slidesPerView: 3, /* Shows 3 slides initially */
-        spaceBetween: 10,
-        autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-            768: {
-                slidesPerView: 3, /* On tablets, show 3 slides */
-            },
-            480: {
-                slidesPerView: 2, /* On small screens, show 2 slides */
-            },
-            320: {
-                slidesPerView: 1, /* On mobile, show 1 slide */
-            }
+    requestAnimationFrame(() => initSwiper());
+    family_planning_card()
+    }
+    function initSwiper() {
+        if (typeof Swiper !== 'undefined' && document.querySelector('.mySwiper')) {
+            new Swiper(".mySwiper", {
+                loop: true,
+                slidesPerView: 3,
+                spaceBetween: 10,
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                breakpoints: {
+                    768: {
+                        slidesPerView: 3,
+                    },
+                    480: {
+                        slidesPerView: 2,
+                    },
+                    320: {
+                        slidesPerView: 1,
+                    }
+                }
+            });
+        } else {
+            console.warn("Swiper or element not found. Skipping swiper init.");
         }
-    });
-    
-family_planning_card();
+    }
 
-}
-
-
+// আরও খবর কার্ড
 function family_planning_card(){
     const container = document.getElementById("main-content");
     const card = document.createElement("main-content");
@@ -214,7 +222,7 @@ function family_planning_card(){
                 <p style="color: #555; margin: 5px 0;">ঈদের কেনাকাটায় কারণে দোকানপাট ভিড়ে... </p>
                 <p style="color: #999; font-size: 14px;">৯ ঘণ্টা আগে</p>
             </div>
-            <img src="./src/images/exampleImage.avif" alt="Shopping" style=" border-radius: 5px;transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.07)'" 
+            <img src="../../src/images/family_planning/gorbo_niyontron/subnews.jpg" alt="Shopping" style=" border-radius: 5px;transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.07)'" 
             onmouseout="this.style.transform='scale(1)'">
         </div>
         
@@ -224,7 +232,7 @@ function family_planning_card(){
                 <p style="color: #555; margin: 5px 0;">ছোট থেকে শিশুদের শেখা...</p>
                 <p style="color: #999; font-size: 14px;">১২ ঘণ্টা আগে</p>
             </div>
-            <img src="./src/images/exampleImage.avif" alt="Education" style="border-radius: 5px;transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.07)'" 
+            <img src="../../src/images/family_planning/gorbo_niyontron/subnews2.jpg" alt="Education" style="border-radius: 5px;transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.07)'" 
             onmouseout="this.style.transform='scale(1)'">
         </div>
         
@@ -234,7 +242,7 @@ function family_planning_card(){
                 <p style="color: #555; margin: 5px 0;">২৫ মার্চে ভারত...</p>
                 <p style="color: #999; font-size: 14px;">২৬ ঘণ্টা আগে</p>
             </div>
-            <img src="./src/images/exampleImage.avif" alt="Jersey" style=" border-radius: 5px;transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.07)'" 
+            <img src="../../src/images/family_planning/gorbo_niyontron/subnews3.jpg" alt="Jersey" style=" border-radius: 5px;transition: transform 0.3s ease-in-out;"  onmouseover="this.style.transform='scale(1.07)'" 
             onmouseout="this.style.transform='scale(1)'">
         </div>
 
@@ -2288,3 +2296,4 @@ function proshobbotor_porikolpona_show_more(){
     // Append new content to the container
     container.appendChild(card);
 }
+family_planning();
